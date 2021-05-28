@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='zh'>
+
+    <head>
+        <meta charset='utf-8' />
+        <meta name='apple-mobile-web-app-capable' content='yes' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='black' />
+        <meta name='viewport' id='viewport' content='width=device-width' />
+        <!-- <script src='https://oss.eventnet.cn/H5/public/jquery-3.5.1.min.js'></script> -->
+        <title></title>
+        <script>
+            !(function () {
+                var e = screen.width / 750;
+                document.getElementById('viewport').content = 'width=750,initial-scale=' + e + ',minimum-scale=' + e + ',maximum-scale=' + e + ',user-scalable=no'
+            })()
+        </script>
+        <link rel="stylesheet" href="src/css/index.css">
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <footer>
+            <div class="button play">开始</div>
+            <div class="button pause">暂停</div>
+        </footer>
+    </body>
+    <script src='src/js/canvasAnimation.js'></script>
+
+</html>
